@@ -1,5 +1,5 @@
-Arduino core for ESP8266 WiFi chip
-===========================================
+Arduino core for ESP8266 WiFi chip - Kniwwelino Fork
+====================================================
 
 This project brings support for ESP8266 chip to the Arduino environment. It lets you write sketches using familiar Arduino functions and libraries, and run them directly on ESP8266, no external microcontroller required.
 
@@ -22,7 +22,7 @@ Starting with 1.6.4, Arduino allows installation of third-party platform package
 
 - Install Arduino 1.6.8 from the [Arduino website](http://www.arduino.cc/en/main/software).
 - Start Arduino and open Preferences window.
-- Enter ```http://arduino.esp8266.com/stable/package_esp8266com_index.json``` into *Additional Board Manager URLs* field. You can add multiple URLs, separating them with commas.
+- Enter ```http://doku.kniwwelino.lu/_media/en/download/package_esp8266_kniwwelino.json``` into *Additional Board Manager URLs* field. You can add multiple URLs, separating them with commas.
 - Open Boards Manager from Tools > Board menu and install *esp8266* platform (and don't forget to select your ESP8266 board from Tools > Board menu after installation).
 
 The best place to ask questions related to this core is ESP8266 community forum: http://www.esp8266.com/arduino.
@@ -32,14 +32,9 @@ If you find this forum or the ESP8266 Boards Manager package useful, please cons
 #### Available versions
 
 ##### Stable version ![](http://arduino.esp8266.com/stable/badge.svg)
-Boards manager link: `http://arduino.esp8266.com/stable/package_esp8266com_index.json`
+Boards manager link: `http://doku.kniwwelino.lu/_media/en/download/package_esp8266_kniwwelino.json`
 
 Documentation: [http://esp8266.github.io/Arduino/versions/2.2.0/](http://esp8266.github.io/Arduino/versions/2.2.0/)
-
-##### Staging version ![](http://arduino.esp8266.com/staging/badge.svg)
-Boards manager link: `http://arduino.esp8266.com/staging/package_esp8266com_index.json`
-
-Documentation: [http://esp8266.github.io/Arduino/versions/2.2.0-rc1/](http://esp8266.github.io/Arduino/versions/2.2.0-rc1/)
 
 ### Using git version
 [![Linux build status](https://travis-ci.org/esp8266/Arduino.svg)](https://travis-ci.org/esp8266/Arduino) [![codecov.io](https://codecov.io/github/esp8266/Arduino/coverage.svg?branch=master)](https://codecov.io/github/esp8266/Arduino?branch=master)
