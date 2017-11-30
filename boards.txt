@@ -1252,7 +1252,7 @@ esp210.menu.FlashSize.4M1M.build.spiffs_pagesize=256
 #
 
 ##############################################################
-kniwwelino.name=WeMos D1 R2 & mini
+d1_mini.name=WeMos D1 R2 & mini
 
 d1_mini.upload.tool=esptool
 d1_mini.upload.speed=460800
