@@ -1271,6 +1271,7 @@ d1_mini.build.variant=d1_mini
 d1_mini.build.flash_mode=dio
 d1_mini.build.flash_size=4M
 d1_mini.build.flash_freq=40
+d1_mini.build.flash_ld=eagle.flash.4m.ld
 d1_mini.build.debug_port=
 d1_mini.build.debug_level=
 
@@ -1895,6 +1896,7 @@ kniwwelino.build.variant=d1_mini
 kniwwelino.build.flash_mode=dio
 kniwwelino.build.flash_size=4M
 kniwwelino.build.flash_freq=40
+kniwwelino.build.flash_ld=eagle.flash.4m.ld
 kniwwelino.build.debug_port=
 kniwwelino.build.debug_level=
 
